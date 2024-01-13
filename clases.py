@@ -87,7 +87,10 @@ print(Cantante1.getGenero())
 
 print("\n---------------------\n")
 
+# Uso del get
+
 cantantes = [Cantante1, Cantante2, Cantante3, Cantante4, Cantante5]
 
 for i in range(len(cantantes)):
     print(cantantes[i].getNombre(),cantantes[i].getGenero())
+    
